@@ -1,2 +1,27 @@
 /* Add application styles & imports to this file! */
 @import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+body {
+  margin: 0;
+}
+
+.font-size-8 {
+  font-size: 8px;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+
+.height-32 {
+  height: 32px !important;
+}
+
+.margin-4-px {
+  margin: 4px !important; 
+}
