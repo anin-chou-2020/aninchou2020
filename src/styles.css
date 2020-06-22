@@ -18,10 +18,46 @@ body {
 }
 
 
-.height-32 {
+.height-32-px {
   height: 32px !important;
+}
+
+.width-248-px {
+  width: 248px;
+}
+
+.max-width-1440-px {
+  max-width: 1440px;
+}
+
+.padding-16-px {
+  padding: 16px;
+}
+
+.padding-left-16-px {
+  padding-left: 16px;
+}
+
+.margin-auto {
+  margin: auto;
 }
 
 .margin-4-px {
   margin: 4px !important; 
+}
+
+.margin-16-px {
+  margin: 16px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.flex-wrap-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-content-space-around {
+  justify-content: space-around;
 }
