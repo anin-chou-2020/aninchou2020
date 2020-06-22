@@ -14,10 +14,14 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { AchievementsComponent } from './components/achievements/achievements.component';
+import { EducationComponent } from './components/education/education.component';
 
 @NgModule({
   imports:      [ BrowserModule, BrowserAnimationsModule, FormsModule, MatToolbarModule, MatIconModule, MatButtonModule, MatTooltipModule, AppRoutingModule ],
-  declarations: [ AppComponent, HeaderComponent, FooterComponent, HomeComponent ],
+  declarations: [ AppComponent, HeaderComponent, FooterComponent, HomeComponent, ExperienceComponent, SkillsComponent, AchievementsComponent, EducationComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
