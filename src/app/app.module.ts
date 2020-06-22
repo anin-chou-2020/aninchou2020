@@ -7,6 +7,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatCardModule } from '@angular/material/card';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -20,7 +21,7 @@ import { AchievementsComponent } from './components/achievements/achievements.co
 import { EducationComponent } from './components/education/education.component';
 
 @NgModule({
-  imports:      [ BrowserModule, BrowserAnimationsModule, FormsModule, MatToolbarModule, MatIconModule, MatButtonModule, MatTooltipModule, AppRoutingModule ],
+  imports:      [ BrowserModule, BrowserAnimationsModule, FormsModule, MatToolbarModule, MatIconModule, MatButtonModule, MatTooltipModule, MatCardModule, AppRoutingModule ],
   declarations: [ AppComponent, HeaderComponent, FooterComponent, HomeComponent, ExperienceComponent, SkillsComponent, AchievementsComponent, EducationComponent ],
   bootstrap:    [ AppComponent ]
 })
