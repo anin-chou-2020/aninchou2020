@@ -30,6 +30,10 @@ body {
   width: 248px;
 }
 
+.width-300-px {
+  width: 300px;
+}
+
 .width-400-px {
   width: 400px;
 }

@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'experience', component: ExperienceComponent },
   { path: 'skills', component: SkillsComponent },
-  { path: 'achievements', component: AchievementsComponent },
+  { path: 'achievements-leadership', component: AchievementsComponent },
   { path: 'education', component: EducationComponent },
 ];
 
