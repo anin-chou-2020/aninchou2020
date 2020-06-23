@@ -30,6 +30,10 @@ body {
   width: 248px;
 }
 
+.width-400-px {
+  width: 400px;
+}
+
 .max-width-1440-px {
   max-width: 1440px;
 }
