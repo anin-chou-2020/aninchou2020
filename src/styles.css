@@ -17,6 +17,9 @@ body {
   font-size: 16px;
 }
 
+.font-size-32-px {
+  font-size: 32px;
+}
 
 .height-32-px {
   height: 32px !important;
