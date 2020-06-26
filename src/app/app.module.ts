@@ -9,6 +9,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
+import { LayoutModule } from '@angular/cdk/layout';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -21,7 +22,7 @@ import { AchievementsComponent } from './components/achievements/achievements.co
 import { EducationComponent } from './components/education/education.component';
 
 @NgModule({
-  imports:      [ BrowserModule, BrowserAnimationsModule, FormsModule, MatToolbarModule, MatIconModule, MatButtonModule, MatTooltipModule, MatCardModule, MatListModule, AppRoutingModule ],
+  imports:      [ BrowserModule, BrowserAnimationsModule, FormsModule, MatToolbarModule, MatIconModule, MatButtonModule, MatTooltipModule, MatCardModule, MatListModule, LayoutModule, AppRoutingModule ],
   declarations: [ AppComponent, HeaderComponent, HomeComponent, ExperienceComponent, SkillsComponent, AchievementsComponent, EducationComponent ],
   bootstrap:    [ AppComponent ]
 })
