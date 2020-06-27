@@ -1,12 +1,12 @@
 <mat-toolbar *ngIf="!isMobile" color="primary" class="position-sticky top-0 z-index-1">
 
-	<span>Anindyo Choudhury</span>
-	<span class="example-spacer"></span>
-  <button mat-raised-button class="margin-4-px" color="primary" routerLink="/home" matTooltip="Home" aria-label="Home button">
+<button mat-raised-button class="margin-4-px" color="primary" routerLink="/home" matTooltip="Home" aria-label="Home button">
     <mat-icon aria-hidden="false" aria-label="Home icon">
       home
-    </mat-icon> Home
+    </mat-icon> Anindyo Choudhury
   </button>
+	<span></span>
+	<span class="example-spacer"></span>
   <button mat-raised-button class="margin-4-px" color="primary" routerLink="/experience" matTooltip="Experience" aria-label="Experience button">
     <mat-icon aria-hidden="false" aria-label="Experience icon">
       work
@@ -30,15 +30,11 @@
 </mat-toolbar>
 
 <mat-toolbar *ngIf="isMobile" color="primary" class="position-sticky top-0 z-index-1">
-  <button mat-mini-fab class="margin-4-px" *ngIf="isMobile" color="primary" matTooltip="Anindyo Choudhury">
+  <button mat-mini-fab class="margin-4-px" color="primary" routerLink="/home" matTooltip="Home" aria-label="Home button">
     AC
   </button>
 	<span class="example-spacer"></span>
-  <button mat-mini-fab class="margin-4-px" color="primary" routerLink="/home" matTooltip="Home" aria-label="Home button">
-    <mat-icon aria-hidden="false" aria-label="Home icon">
-      home
-    </mat-icon>
-  </button>
+  
   <button mat-mini-fab class="margin-4-px" color="primary" routerLink="/experience" matTooltip="Experience" aria-label="Experience button">
     <mat-icon aria-hidden="false" aria-label="Experience icon">
       work
