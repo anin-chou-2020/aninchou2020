@@ -100,3 +100,11 @@ body {
 .z-index-1 {
   z-index: 1;
 }
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-decoration-none {
+  text-decoration: none !important;
+}
